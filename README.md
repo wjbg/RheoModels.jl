@@ -1,6 +1,6 @@
 # RheoModels.jl
 
-RheoModels.jl is a Julia with temperature-dependent rheological models for fluids. It provides a flexible framework for common temperature dependency models and various constitutive rheological equations, along with a (small) collection of predefined material models for easy access to common polymer rheology data.
+RheoModels.jl is a Julia package with temperature-dependent rheological models for fluids. It provides a flexible framework for common temperature dependency models and various constitutive rheological equations, along with a (small) collection of predefined material models for easy access to common polymer rheology data.
 
 
 ## Features
