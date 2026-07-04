@@ -1,7 +1,7 @@
 name = "RheoModels"
-uuid = "2867436d-852c-4f98-a850-91bf70cd77db"
-authors = ["Wouter Grouve <wjbgrouve@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+uuid = "e43521cb-ed0c-4cef-aa90-e4f5cf94df95"
+version = "0.1.0-DEV"
+authors = ["Wouter Grouve <wjbgrouve@gmail.com>"]
 
 [compat]
 julia = "1.12"
