@@ -21,15 +21,15 @@ gamma_dot = 10.0 # 1/s
 temperature = 380.0 + 273.15 # K
 
 # PEEK model
-η_peek = PEEK(gamma_dot, temperature)
+η_PEEK = PEEK(gamma_dot, temperature)
 println("PEEK viscosity at γ̇=$(gamma_dot) and T=$(temperature)K: ", η_peek, " Pa⋅s")
 
 # LM-PAEK model
-η_lmpaeK = LMPAEK(gamma_dot, temperature)
+η_LMPAEK = LMPAEK(gamma_dot, temperature)
 println("LM-PAEK viscosity at γ̇=$(gamma_dot) and T=$(temperature)K: ", η_lmpaeK, " Pa⋅s")
 
 # PPS model
-η_pps = PPS(gamma_dot, temperature)
+η_PPS = PPS(gamma_dot, temperature)
 println("PPS viscosity at γ̇=$(gamma_dot) and T=$(temperature)K: ", η_pps, " Pa⋅s")
 ```
 
